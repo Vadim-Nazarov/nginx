@@ -6,7 +6,6 @@ on:
       - main
     tags:
       - 'v*'
-
 env:
   IMAGE_TAG: vadimn88/applications
   RELEASE_NAME: nginx-release
