@@ -57,4 +57,4 @@ jobs:
           kubeconfig: ${{ secrets.KUBECONFIG }}
       - name: Deploy to Kubernetes with Helm
         run: |
-          helm upgrade --install ${{ env.RELEASE_NAME }} ./nginx_ci --namespace ${{ env.NAMESPACE }} --set image.tag=${{ env.VERSION }}
+          helm upgrade --install ${{ env.RELEASE_NAME }} ./nginxci --namespace ${{ env.NAMESPACE }} --set image.tag=${{ env.VERSION }}
