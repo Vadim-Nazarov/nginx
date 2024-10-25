@@ -8,7 +8,7 @@ on:
       - 'v*'
 env:
   IMAGE_TAG: vadimn88/applications
-  RELEASE_NAME: nginx-release
+  RELEASE_NAME: my-app
   NAMESPACE: default
 
 jobs:
